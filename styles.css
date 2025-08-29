@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background-color: hwb(54 40% 5%);
+    background-color: lch(100% 0.01 296.81);
 }
 
 
@@ -24,13 +24,12 @@ section {
 
 
 .nav-link {
-    color: oklch(91.279% 0.0001 271.152);
     font-weight: 600;
 }
 
 .inicio-fundo {
     /* aula 3 */
-    background-image: url('img/4965007.jpg');
+    background-image: url('img/J.jpg');
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
@@ -74,18 +73,8 @@ section {
 }
 
 
-#tropicalia {
-    position: relative;
-    padding-top: 5rem;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    background: url('img/flor.png') top right no-repeat,
-        url('img/flor-esquerda.png') bottom left no-repeat;
-    background-size: 180px 180px;
-    /* Ajuste o tamanho conforme necessário */
-}
 
-#tropicalia .container {
+#festa-junina .container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -140,50 +129,52 @@ h2 {
 .form-control {
     background-color: #F1EDEF;
 }
-.menu-acessibilidade{
+
+.menu-acessibilidade {
     position: fixed;
-    top:2rem;
-    right:20px;
+    top: 2rem;
+    right: 20px;
     z-index: 1000;
 }
 
-.rotacao-botao{
+.rotacao-botao {
     transform: rotate(-90deg);
     transform-origin: right center;
 }
 
-.opcoes-acessibilidade{
-    margin-top:10px;
+.opcoes-acessibilidade {
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
 }
 
-.opcoes-acessibilidade button{
+.opcoes-acessibilidade button {
     margin-bottom: 5px;
 }
-.apresenta-lista{
+
+.apresenta-lista {
     display: none;
 }
 
-.alto-contraste{
+.alto-contraste {
     background-color: var(--alto-contraste-fundo);
     color: var(--alto-contraste-texto);
 }
 
 .alto-contraste header,
 .alto-contraste footer,
-.alto-contraste .formulario{
+.alto-contraste .formulario {
     background-color: var(--alto-contraste-fundo);
     color: var(--alto-contraste-texto);
 }
 
-.alto-contraste .nav-link{
+.alto-contraste .nav-link {
     color: var(--alto-contraste-link);
 }
 
 .alto-contraste .botao-inicio,
 .alto-contraste .formulario button,
-.alto-contraste .btn-primary{
+.alto-contraste .btn-primary {
     background-color: var(--alto-contraste-link);
     color: var(--alto-contraste-fundo)
 }
@@ -195,6 +186,15 @@ h2 {
 .alto-contraste #galeria {
     background-color: var(--alto-contraste-fundo);
 }
+
 .alto-contraste .fundo-galeria {
     background: none;
+}
+
+#logo1 {
+    width: 100%;
+    height: auto;
+    max-width: 100px;
+    margin: 0 auto;
+
 }
